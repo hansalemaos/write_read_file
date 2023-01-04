@@ -5,7 +5,7 @@
 # Tested with:
 # Python 3.9.13
 # Windows 10
-
+$pip install write-read-file
 from write_read_file import write_utf8, write_bytes, read_bytes, copy_file, read_and_decode, iterread_bytes, iterread_text
 
 import numpy as np
